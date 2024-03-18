@@ -1,0 +1,223 @@
+div{
+    width: 1920px;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+body {
+    font-family: protest strike;
+    background-size: cover;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.text{
+    position: absolute;
+    margin-left: 10px;
+}
+.snd{
+    position:absolute;
+    margin-left: 1420px;
+    border: none;
+    background-color: rgb(241, 209, 89);
+    font-family: protest strike;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.snd:active{
+    background-color: rgb(241, 209, 89);
+    
+}
+.trd{
+    position:absolute;
+    margin-left: 1280px;
+    border: none;
+    background-color: rgb(241, 209, 89);
+    font-family: protest strike;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.trd:active{
+    background-color: rgb(241, 209, 89);
+}
+.fth{
+    position:absolute;
+    margin-left: 1150px;
+    border: none;
+    background-color: rgb(241, 209, 89);
+    font-family: protest strike;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.fth:active{
+    background-color: rgb(241, 209, 89);
+}
+.fve{
+    position:absolute;
+    margin-left: 1010px;
+    border: none;
+    background-color: rgb(241, 209, 89);
+    font-family: protest strike;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.fve:active{
+    background-color: rgb(241, 209, 89);
+}
+.ssl{
+    margin-top: 240px;
+    position:absolute;
+    margin-left: 200px;
+    font-size: 8vh;
+    border: none;
+    border-radius: 5px;
+    
+}
+.wow{
+    margin-top: 320px;
+    position:absolute;
+    margin-left: 200px;
+    width: 500px;
+    font-size: 30px;
+    
+}
+.get-started{
+    margin-top: 380px;
+    position:absolute;
+    margin-left: 200px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 14px;
+    background-color: rgb(30, 69, 65);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.get-started:active{
+    background-color: rgb(25, 58, 54);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+.aboutus{
+    margin-top: 170px;
+    margin-left: 350px;
+    width: 50vw;
+    min-height: 50vh;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.492);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 25px 40px;
+    font-size: 25px;
+    position: absolute;
+  }
+.Description{
+    text-align: left;
+    padding: 100px 50px;
+}
+.about-us{
+    padding: 70px 50px;
+}
+.cloud{
+    position: absolute;
+    margin-top: 138px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    
+}
+.sign-in{
+    position:absolute;
+    margin-left: 1009px;
+    border: none;
+    background-color: rgb(241, 209, 89);
+    font-family: protest strike;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.client-one{
+    position:absolute;
+    margin-top: 170px;
+    margin-left: 200px;
+    font-size: 5vh;
+}
+.client-two{
+    position:absolute;
+    margin-top: 170px;
+    margin-left: 850px;
+    font-size: 5vh;
+}
+.graph{
+    display: flex;
+    position:absolute;
+    margin-top: 240px;
+    margin-left: 850px;
+    font-size: 5vh;
+    border-radius: 5px;
+    border: none;
+}
+.table-container{
+    display: inline;
+    position:absolute;
+    width: auto;
+    margin-top: 160px;
+    margin-left: 770px;
+    font-size: 5vh;
+    border-radius: 5px;
+    border: none;
+}
+.table{
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+}
+.time-container{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 450px;
+    height: 25vh;
+    margin-top: 160px;
+    margin-left: 310px;
+    color: black;
+
+}
+#time{
+    display: flex;
+    position: absolute;
+    width: auto;
+    padding-top: 60px;
+    padding-left: 110px;
+    font-size: 50px;
+    
+}
+.next-medicine{
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 430px;
+    height: 5vh;
+    margin-top: 342px;
+    margin-left: 310px;
+    padding-top: 13px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.meds{
+    margin: 0
+}
+  
