@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Client page </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,21 +32,56 @@
                 Video
             </button>
         </a>
-        <div class="time-container">
-            <div id="time"></div>
-        </div>
-        <div class="next-medicine">
-            <p class="meds">Next medicine is - ________________ </p>
+        <div class="client-container">
+            <div class="time-container">
+                <div id="time"></div>
+            </div>
+            <div class="next-medicine">
+                <p class="meds">Next medicine is - ________________ </p>
+            </div>
+            <script src="javascripts/clock.js"></script>
+            <iframe class="cloud" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2454338/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&xaxis=Time&yaxis=Medicine+taken"></iframe>
+                <div class="table-container">
+                    <table>
+                        <tr>
+                            <th>Weekdays</th>
+                            <th>Medicines</th>
+                        </tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>------</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>------</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>------</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>------</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>------</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>------</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>------</td>
+                        </tr>
+    
+                    </table>
+                    
+                    
+                </div>
         </div>
         
-        <script src="javascripts/clock.js"></script>
-        <p class="ssl">
-            <iframe class="cloud" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2454338/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&xaxis=Time&yaxis=Medicine+taken"></iframe>
-
-            <div class="table-container">
-                <img class="table" src="Backgrounds/Table.png">
-            </div>
-        </p>
         
     </body>
 </html>

@@ -118,22 +118,23 @@ body {
     background-color: rgba(0, 0, 0, 0.492);
     color: #ffffff;
     border-radius: 12px;
+    padding: 25px 40px;
     font-size: 25px;
     position: absolute;
   }
 .Description{
     text-align: left;
-    padding: 50px 50px;
+    padding: 100px 50px;
 }
 .about-us{
     padding: 30px 30px;
 }
 .cloud{
     position: absolute;
-    margin-top: 138px;
+    margin-top: 248px;
     border: none;
     border-radius: 5px;
-    margin-left: 100px;
+    margin-left: 10px;
     
 }
 .sign-in{
@@ -171,17 +172,11 @@ body {
 .table-container{
     display: inline;
     position:absolute;
-    width: auto;
-    margin-top: 160px;
-    margin-left: 770px;
-    font-size: 5vh;
+    width: 30vw;
+    margin-top: 10px;
+    margin-left: 475px;
     border-radius: 5px;
     border: none;
-}
-.table{
-    width: 450px;
-    height: 500px;
-    border-radius: 5px;
 }
 .time-container{
     display: flex;
@@ -190,8 +185,8 @@ body {
     border-radius: 5px;
     width: 450px;
     height: 25vh;
-    margin-top: 160px;
-    margin-left: 310px;
+    margin-top: 10px;
+    margin-left: 10px;
     color: black;
 
 }
@@ -210,8 +205,8 @@ body {
     background-color: rgb(255, 255, 255);
     width: 430px;
     height: 5vh;
-    margin-top: 342px;
-    margin-left: 310px;
+    margin-top: 193px;
+    margin-left: 10px;
     padding-top: 13px;
     padding-left: 20px;
     border-radius: 5px;
@@ -219,4 +214,34 @@ body {
 .meds{
     margin: 0
 }
-  
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 5.6vh;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    
+}
+th,td {
+    padding: 10px 10px;
+}
+th {
+    font-size: 30px;
+}
+td {
+    font-size: 25px;
+}
+.client-container{
+    display: flex;
+    position: absolute;
+    margin-left: 275px;
+    margin-top: 130px;
+    width: 62.3%;
+    height: 75%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.421);
+    padding: 10px 10x 10px 10px;
+}
