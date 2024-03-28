@@ -118,13 +118,12 @@ body {
     background-color: rgba(0, 0, 0, 0.492);
     color: #ffffff;
     border-radius: 12px;
-    padding: 25px 40px;
     font-size: 25px;
     position: absolute;
   }
 .Description{
     text-align: left;
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 .about-us{
     padding: 30px 30px;
