@@ -108,7 +108,7 @@ body {
 
 }
 .aboutus{
-    margin-top: 170px;
+    margin-top: 160px;
     margin-left: 350px;
     width: 50vw;
     min-height: 50vh;
@@ -127,7 +127,7 @@ body {
     padding: 100px 50px;
 }
 .about-us{
-    padding: 70px 50px;
+    padding: 30px 30px;
 }
 .cloud{
     position: absolute;
